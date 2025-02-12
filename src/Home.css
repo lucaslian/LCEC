@@ -1,0 +1,83 @@
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-campus-container {
+    position: relative;
+    width: 99%;
+    height: 500px; /* Adjust height as needed */
+    background-image: url('../src/Images/LCEC\ School\ Pictures/LCEC\ campus\ 1.jpg');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay to improve text readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: calc(2rem + 1vw);
+  }
+
+.bibleReference{
+    font-size: calc(3rem + 1vw);
+    text-align: right;
+}
+
+.enrollment-info {
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.preschool-enrollment, .elementary-enrollment, .highschool-enrollment {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-more-enrollment {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+}
+
+.home-footer {
+    margin-bottom: 2px;
+    display: absolute;
+}

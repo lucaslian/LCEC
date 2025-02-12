@@ -1,0 +1,40 @@
+.profileName {
+  background-color: blue;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+.profileImage {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+}
+
+.facultyProfile {
+  text-wrap: center;
+  margin: 3px;
+}
+
+.App div {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ProfileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+nav {
+  margin: 10px;
+  background-color: lightblue;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+}
