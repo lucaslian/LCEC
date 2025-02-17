@@ -10,7 +10,6 @@ import Login from './Navigation/Login';
 
 function App() {
   return (
-    <Router>
       <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
               <div class="container-fluid">
@@ -49,7 +48,6 @@ function App() {
           <Route path="/login" element={<Login/>}/>
         </Routes>
       </div>
-    </Router>
   );
 }
 
