@@ -7,6 +7,7 @@ import { HashRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import About from './Navigation/About';
 import Contact from './Navigation/Contact';
 import Login from './Navigation/Login';
+import Preschool from './Enrollments/Preschool';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/preschool" element={<Preschool/>}/>
         </Routes>
       </div>
   );

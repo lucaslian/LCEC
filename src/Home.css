@@ -65,6 +65,9 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .learn-more-enrollment {
@@ -80,4 +83,26 @@
 .home-footer {
     margin-bottom: 2px;
     display: absolute;
+}
+
+.icon-container {
+    position: absolute;
+    top: -40px; /* Move the icon above the text */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80px; /* Adjust size */
+    height: 80px;
+    background-color: white; /* Optional: Background color */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+.preschool-icon, .elementary-icon, .highschool-icon {
+    width: 60px; /* Adjust the icon size */
+    height: 60px;
+    border-radius: 50%; /* Ensures the image is circular */
+    object-fit: cover; /* Prevents stretching */
 }
