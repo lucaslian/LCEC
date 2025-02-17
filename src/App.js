@@ -30,14 +30,13 @@ function App() {
                       <Link class="nav-link" aria-disabled="false" to="/Contact">Contact</Link>
                     </li>
                     <li class="nav-item">
-                      
                     </li>
                   </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                         <button class="btn btn-outline-success" type="submit">Search</button>
                       </form>
-                      <a class="btn btn-outline-success" aria-disabled="true" href="/Login">Login</a>
+                      <Link className="btn btn-outline-success" aria-disabled="true" to="/login">Login</Link>
                 </div>
               </div>
             </nav>
