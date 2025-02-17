@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LCEC/static/css/main.ec7cc4e8.css",
-    "main.js": "/LCEC/static/js/main.c7d93547.js",
+    "main.js": "/LCEC/static/js/main.eadf4571.js",
     "static/js/488.62e4ede5.chunk.js": "/LCEC/static/js/488.62e4ede5.chunk.js",
     "static/media/LCEC campus 1.jpg": "/LCEC/static/media/LCEC campus 1.64b0aab576d28483abdb.jpg",
     "static/media/Ms.Don It Kim.JPG": "/LCEC/static/media/Ms.Don It Kim.f580a56c19747f7517aa.JPG",
@@ -46,11 +46,11 @@
     "static/media/Ms.Ciang Lian Pau.JPG": "/LCEC/static/media/Ms.Ciang Lian Pau.13d102febeac0606e02d.JPG",
     "index.html": "/LCEC/index.html",
     "main.ec7cc4e8.css.map": "/LCEC/static/css/main.ec7cc4e8.css.map",
-    "main.c7d93547.js.map": "/LCEC/static/js/main.c7d93547.js.map",
+    "main.eadf4571.js.map": "/LCEC/static/js/main.eadf4571.js.map",
     "488.62e4ede5.chunk.js.map": "/LCEC/static/js/488.62e4ede5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec7cc4e8.css",
-    "static/js/main.c7d93547.js"
+    "static/js/main.eadf4571.js"
   ]
 }
