@@ -2,7 +2,7 @@
   "name": "lcec",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucaslian.github.io/faculty-pictures",
+  "homepage": "https://lucaslian.github.io/LCEC/",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
